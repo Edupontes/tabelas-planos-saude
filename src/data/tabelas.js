@@ -1,0 +1,125 @@
+/**Modelo de item da Tabela, usar o bloco abaixo para adicionar uma nova tabela.
+ * {
+    nome: "(NomePLano)",
+    imagem: "/TabelasPlanos/2025/(Arquivo)",
+    pdf: "/TabelasPlanos/2025/(Arquivo)", caso não possua entao deixar como null
+    vigencia: "agosto/2025", caso não possua entao deixar como null
+    campanhaMes: "Mensagem de Campanha", caso não possua entao deixar como null
+  },
+ */
+
+export const tabelas = [
+  {
+    nome: "Unimed - Allcare",
+    imagem: "/TabelasPlanos/2025/AllCare-Unimed.jpeg",
+    pdf: null,
+    vigencia: "conforme imagem",
+    campanhaMes: null,
+    linkExtra: null,
+  },
+  {
+    nome: "Unimed - PME",
+    imagem: "/TabelasPlanos/2025/Unimed-PME.png",
+    pdf: "/TabelasPlanos/2025/Unimed-PME.pdf",
+    vigencia: null,
+    campanhaMes: null,
+    linkExtra: null,
+  },
+  {
+    nome: "Hapvida - Individual",
+    imagem: "/TabelasPlanos/2025/Individual-Hapvida.jpeg",
+    pdf: null,
+    vigencia: null,
+    campanhaMes: null,
+    linkExtra: null,
+  },
+  {
+    nome: "Hapvida - SuperSimples",
+    imagem: "/TabelasPlanos/2025/SuperSimples-Hapvida.jpeg",
+    pdf: null,
+    vigencia: null,
+    campanhaMes: null,
+    linkExtra: null,
+  },
+  {
+    nome: "Hapvida - SuperSimples+Odonto",
+    imagem: "/TabelasPlanos/2025/Supersimples-Hapvida-Odonto.jpeg",
+    pdf: null,
+    vigencia: null,
+    campanhaMes: null,
+    linkExtra: null,
+  },
+  {
+    nome: "Hapvida - PME30a99",
+    imagem: "/TabelasPlanos/2025/PME-Hapvida.jpeg",
+    pdf: null,
+    vigencia: null,
+    campanhaMes: null,
+    linkExtra: null,
+  },
+  {
+    nome: "Hapvida - AEC",
+    imagem: "/TabelasPlanos/2025/AEC-Hapvida.jpeg",
+    pdf: null,
+    vigencia: null,
+    campanhaMes: null,
+    linkExtra: null,
+  },
+  {
+    nome: "Hapvida - QualiAzul",
+    imagem: "/TabelasPlanos/2025/QualiAzul-Hapvida.png",
+    pdf: "/TabelasPlanos/2025/CORRIGIDA-HAPVIDA-RECIFE",
+    vigencia: null,
+    campanhaMes: null,
+    linkExtra:
+      "https://drive.google.com/drive/folders/11PNbAbmUJeTju_gYCOCSIgkpHl_tgeYo?usp=sharing",
+  },
+  {
+    nome: "AMPLA - INDIVIDUAL",
+    imagem: "/TabelasPlanos/2025/AMPLA_INDIVIDUAL.png",
+    pdf: "/TabelasPlanos/2025/QUALIPRO_AMPLA_PE_A_24_NP_INDIVIDUAL.pdf",
+    vigencia: null,
+    campanhaMes: null,
+    linkExtra: null,
+  },
+  {
+    nome: "AMPLA - PME",
+    imagem: "/TabelasPlanos/2025/AMPLA_PME.png",
+    pdf: "/TabelasPlanos/2025/QUALIPRO_AMPLA_PME.pdf",
+    vigencia: null,
+    campanhaMes: null,
+    linkExtra: null,
+  },
+  {
+    nome: "FoxSaude",
+    imagem: "/TabelasPlanos/2025/FoxSaude.jpeg",
+    pdf: null,
+    vigencia: null,
+    campanhaMes: null,
+    linkExtra: null,
+  },
+  {
+    nome: "Select-ASSCOMPE",
+    imagem: "/TabelasPlanos/2025/ASSCOMPE-Select.jpeg",
+    pdf: null,
+    vigencia: null,
+    campanhaMes: null,
+    linkExtra: null,
+  },
+  {
+    nome: "Select-PME",
+    imagem: "/TabelasPlanos/2025/select-pme.png",
+    pdf: "/TabelasPlanos/2025/Select-PME.pdf",
+    vigencia: null,
+    campanhaMes: null,
+    linkExtra: null,
+  },
+  {
+    nome: "MedSenior",
+    imagem: "/TabelasPlanos/2025/MedSenior.jpeg",
+    pdf: null,
+    vigencia: null,
+    campanhaMes: null,
+    linkExtra: null,
+  },
+];
