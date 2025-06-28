@@ -1,6 +1,8 @@
 import { tabelas } from "./data/tabelas";
 import { TabelaPlano } from "./components/TabelaPlano";
 import styled from "styled-components";
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       {tabelas.map((tabela, index) => (
         <TabelaPlano key={index} {...tabela} />
       ))}
+      <SpeedInsights />
+      <Analytics />
     </Container>
   );
 }
