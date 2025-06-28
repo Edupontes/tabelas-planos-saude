@@ -75,6 +75,15 @@ export const tabelas = [
       "https://drive.google.com/drive/folders/11PNbAbmUJeTju_gYCOCSIgkpHl_tgeYo?usp=sharing",
   },
   {
+    nome: "Hapvida - CORPE",
+    imagem: "/TabelasPlanos/2025/Hapvida-CORPE.jpeg",
+    pdf: null,
+    vigencia: null,
+    campanhaMes:
+      "100% na 1ª Mensalidade por vida confirmada, após confirmação do 1º Boleto. Pagamento em até 5 dias úteis.",
+    linkExtra: null,
+  },
+  {
     nome: "AMPLA - INDIVIDUAL",
     imagem: "/TabelasPlanos/2025/AMPLA_INDIVIDUAL.png",
     pdf: "/TabelasPlanos/2025/QUALIPRO_AMPLA_PE_A_24_NP_INDIVIDUAL.pdf",
@@ -93,6 +102,14 @@ export const tabelas = [
   {
     nome: "FoxSaude",
     imagem: "/TabelasPlanos/2025/FoxSaude.jpeg",
+    pdf: null,
+    vigencia: null,
+    campanhaMes: null,
+    linkExtra: null,
+  },
+  {
+    nome: "FoxSaude-Hubcare",
+    imagem: "/TabelasPlanos/2025/FoxSaude-Hubcare.jpeg",
     pdf: null,
     vigencia: null,
     campanhaMes: null,
