@@ -19,8 +19,8 @@ export const tabelas = [
   },
   {
     nome: "Unimed - PME",
-    imagem: "/TabelasPlanos/2025/Unimed-PME.png",
-    pdf: "/TabelasPlanos/2025/Unimed-PME.pdf",
+    imagem: "/TabelasPlanos/2025/UNIMED-PME-NEW.png",
+    pdf: "/TabelasPlanos/2025/NOVA-TABELA-UNIMED-PME-1A99-VIDAS.pdf",
     vigencia: null,
     campanhaMes: null,
     linkExtra: null,
